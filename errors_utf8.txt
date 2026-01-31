@@ -1,0 +1,23 @@
+﻿Analyzing fintrack_v2...                                        
+
+  error - Target of URI doesn't exist: 'package:firebase_auth/firebase_auth.dart' - lib\core\di\providers.dart:2:8 - uri_does_not_exist
+   info - 'SharedPreferencesRef' is deprecated and shouldn't be used. Will be removed in 3.0. Use Ref instead - lib\core\di\providers.dart:17:37 - deprecated_member_use_from_same_package
+   info - 'FirebaseFirestoreRef' is deprecated and shouldn't be used. Will be removed in 3.0. Use Ref instead - lib\core\di\providers.dart:22:37 - deprecated_member_use_from_same_package
+  error - Undefined class 'FirebaseAuth' - lib\core\di\providers.dart:27:1 - undefined_class
+   info - 'FirebaseAuthRef' is deprecated and shouldn't be used. Will be removed in 3.0. Use Ref instead - lib\core\di\providers.dart:27:27 - deprecated_member_use_from_same_package
+  error - Undefined name 'FirebaseAuth' - lib\core\di\providers.dart:28:10 - undefined_identifier
+  error - The name 'User' isn't a type, so it can't be used as a type argument - lib\core\di\providers.dart:32:8 - non_type_as_type_argument
+   info - 'AuthStateChangesRef' is deprecated and shouldn't be used. Will be removed in 3.0. Use Ref instead - lib\core\di\providers.dart:32:32 - deprecated_member_use_from_same_package
+   info - 'UserIdRef' is deprecated and shouldn't be used. Will be removed in 3.0. Use Ref instead - lib\core\di\providers.dart:39:24 - deprecated_member_use_from_same_package
+  error - The named parameter 'data' is required, but there's no corresponding argument - lib\core\di\providers.dart:40:46 - missing_required_argument
+  error - The named parameter 'error' is required, but there's no corresponding argument - lib\core\di\providers.dart:40:46 - missing_required_argument
+  error - The named parameter 'loading' is required, but there's no corresponding argument - lib\core\di\providers.dart:40:46 - missing_required_argument
+  error - Too many positional arguments: 0 expected, but 1 found - lib\core\di\providers.dart:40:50 - extra_positional_arguments_could_be_named
+   info - 'SettingsRepositoryRef' is deprecated and shouldn't be used. Will be removed in 3.0. Use Ref instead - lib\core\di\providers.dart:46:40 - deprecated_member_use_from_same_package
+   info - 'AssetRepositoryRef' is deprecated and shouldn't be used. Will be removed in 3.0. Use Ref instead - lib\core\di\providers.dart:71:34 - deprecated_member_use_from_same_package
+   info - 'TransactionRepositoryRef' is deprecated and shouldn't be used. Will be removed in 3.0. Use Ref instead - lib\core\di\providers.dart:77:46 - deprecated_member_use_from_same_package
+  error - The name 'FirebaseAuth' isn't a type, so it can't be used as a type argument - lib\core\di\providers.g.dart:49:39 - non_type_as_type_argument
+  error - The name 'FirebaseAuth' isn't a type, so it can't be used as a type argument - lib\core\di\providers.g.dart:60:39 - non_type_as_type_argument
+  error - The name 'User' isn't a type, so it can't be used as a type argument - lib\core\di\providers.g.dart:65:49 - non_type_as_type_argument
+  error - The name 'User' isn't a type, so it can't be used as a type argument - lib\core\di\providers.g.dart:77:49 - non_type_as_type_argument
+

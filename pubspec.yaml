@@ -1,0 +1,72 @@
+name: fintrack_v2
+description: FinTrack - Personal Finance & Expense Tracker
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  flutter_riverpod: ^3.0.3
+  riverpod_annotation: ^3.0.3
+
+  # Data Class / JSON
+  freezed_annotation: ^3.1.0
+  json_annotation: ^4.8.1
+  equatable: ^2.0.5
+
+  # Firebase
+  firebase_core: ^4.2.1
+  cloud_firestore: ^6.1.0
+  firebase_auth: ^6.1.2
+
+  # Utilities
+  intl: ^0.20.2
+  decimal: ^3.2.4
+  rational: ^2.2.3
+  uuid: ^4.3.3
+  fpdart: ^1.1.0
+  shared_preferences: ^2.2.2
+  
+  # Local Storage (Cache)
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  
+  # Navigation
+  go_router: ^17.0.1
+  
+  # API
+  http: ^1.1.0
+  
+  # Notifications
+  flutter_local_notifications: ^17.0.0
+  permission_handler: ^11.0.0
+  
+  # Charts
+  fl_chart: ^1.1.1
+  
+  # Backup & Export (Phase 6)
+  share_plus: ^7.0.0
+  file_picker: ^6.0.0
+  
+  # AI Coach (Phase 7)
+  google_generative_ai: ^0.4.6
+  flutter_secure_storage: ^9.0.0
+  url_launcher: ^6.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  build_runner: ^2.4.8
+  riverpod_generator: ^3.0.3
+  freezed: ^3.2.3
+  json_serializable: ^6.7.1
+  test: ^1.24.0
+
+flutter:
+  uses-material-design: true
